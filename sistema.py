@@ -10,6 +10,8 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 
+st.header("Creado por: jahoperi")
+
 def main():
     st.title("Crea tu propio sistema de 2 ecuaciones con 2 incognitas")
     st.write("Esta aplicación solicita dos números. Que serán la solución que tu decidas para tu sistema (en el eje de las x toma de -10 a 10. En el eje de las (y) no importa que valor tomes)")
